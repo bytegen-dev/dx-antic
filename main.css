@@ -310,6 +310,7 @@ body{
         background-position: center;
         background-size: cover;
         padding: 40px 30px 0 30px;
+        opacity: 0.96;
     }
 
     .navm{
