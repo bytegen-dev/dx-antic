@@ -454,8 +454,8 @@ body{
     .aboutmbottom{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
         margin: 40px 0 20px 0;
         line-height: 25px;
     }
