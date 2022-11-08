@@ -292,3 +292,129 @@ body{
     background: transparent;
     color: #534B42;
 }
+
+@media screen and (max-width: 1000px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .m{
+        /* border: 2px solid tomato; */
+        background: url(./images/header.png);
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        padding: 40px 30px 0 30px;
+    }
+
+    .navm{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .navtext h1{
+        font-family: merrilight;
+        color: white;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        /* border: 2px solid red; */
+    }
+
+    .menu1{
+        width: 24px;
+        background: white;
+        height: 2.5px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+    .menu2{
+        width: 24px;
+        background: white;
+        height: 2.5px;
+        border-radius: 20px;
+    }
+
+    .headm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        margin-top: 20vh;
+    }
+
+    .headm span{
+        color: white;
+        margin-bottom: 40px;
+    }
+    
+    .headm h1{
+        color: white;
+        margin-bottom: 40px;
+        font-family: Merrilight;
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 40px;
+        letter-spacing: -0.30000001192092896px;
+        text-align: center;
+    }
+
+    
+    .scrolldownm{
+        border: 2px solid white;
+        margin-top: 40px;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+    }
+    
+    
+    .scrolldownm a{
+        animation: bounce;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+        animation-duration: 2.5s;
+        position: relative;
+    }
+    
+    @keyframes bounce {
+        0%  { top: 0;}
+        100%  {top:12px; }
+    }
+    
+    
+    .scrolldownm a i{
+        color: white;
+        font-size: 29px;
+        height: 50px;
+        padding-top: 10px;
+        /* border: 1px solid red; */
+        /* display: flex; */
+    }
+
+}
