@@ -305,12 +305,12 @@ body{
 
     .m{
         /* border: 2px solid tomato; */
-        background: url(./images/header.png);
+        background: var(--gradient), url(./images/header.png);
         height: 100vh;
         background-position: center;
         background-size: cover;
-        padding: 40px 30px 0 30px;
-        opacity: 0.96;
+        padding: 40px 10vw 0 10vw;
+        /* opacity: 0.95; */
     }
 
     .navm{
@@ -336,17 +336,19 @@ body{
     }
 
     .menu1{
-        width: 24px;
+        width: 26px;
         background: white;
         height: 2.5px;
         margin-bottom: 10px;
         border-radius: 20px;
+        opacity: 0.7;
     }
     .menu2{
-        width: 24px;
+        width: 26px;
         background: white;
         height: 2.5px;
         border-radius: 20px;
+        opacity: 0.7;
     }
 
     .headm{
@@ -359,12 +361,13 @@ body{
         text-align: center;
         font-size: 18px;
         color: white;
-        margin-top: 20vh;
+        margin: 20vh 0;
     }
 
     .headm span{
         color: white;
         margin-bottom: 40px;
+        font-weight: bolder;
     }
     
     .headm h1{
@@ -395,11 +398,11 @@ body{
     .scrolldownm a{
         animation: bounce;
         animation-timing-function: ease-out;
-        animation-iteration-count: infinite;
+        animation-iteration-count: 4;
         animation-direction: alternate;
         animation-fill-mode: forwards;
-        animation-delay: 2s;
-        animation-duration: 2.5s;
+        animation-delay: 3s;
+        animation-duration: 0.7s;
         position: relative;
     }
     
@@ -418,4 +421,87 @@ body{
         /* display: flex; */
     }
 
+    .aboutm{
+        background: rgba(222, 184, 135, 0.2);
+        padding: 0 10vw;
+    }
+
+    .aboutmhead{
+        /* border: 2px solid tomato; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutmhead h1{
+        font-family: merrilight;
+        font-weight: bolder;
+        color: #534B42;
+        font-size: 35px;
+        line-height: 40px;
+        letter-spacing: -0.30000001192092896px;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .aboutmhead a{
+        color: var(--text-color);
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    .aboutmbottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0 20px 0;
+        line-height: 25px;
+    }
+
+    .aboutmtext h1{
+        font-size: 24px;
+        color: var(--text-color);
+        margin-bottom: 5px;
+        /* font-weight: light; */
+    }
+
+    .aboutmtext {
+        color: var(--light-text-color);
+        font-size: 15px;
+    }
+    
+    .aboutmtext div{
+        margin-bottom: 20px;
+    }
+
+    .endm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2ps solid tomato;
+        padding: 20px 10vw;
+        background: transparent;
+    }
+
+    .endm input{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+        background: rgba(243, 238, 232, 0.3);
+        border: 2px solid transparent;
+        padding: 10px;
+    }
+    
+    .endm button{
+        width: 100%;
+        height: 50px;
+        background: #534B42;
+        color: white;
+        border: 2px solid transparent;
+        font-size: 20px;
+        font-weight: bolder;
+    }
 }

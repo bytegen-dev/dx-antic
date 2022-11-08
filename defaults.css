@@ -1,6 +1,7 @@
 :root {
     --text-color: #A06056;
     --light-text-color: #706458;
+    --gradient: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(120, 120, 120, 0.3), rgba(255, 255, 255, 0.05));
 
 
 }
