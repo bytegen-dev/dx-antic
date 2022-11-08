@@ -4,8 +4,27 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: sans-serif;
+}
+
+@font-face {
+    font-family: merriregular;
+    src: url(./fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: merrilight;
+    src: url(./fonts/Merriweather\ Light.ttf);
+}
+
+@font-face {
+    font-family: merribold;
+    src: url(./fonts/Merriweather-Bold.ttf);
 }
 
 .mobile{
@@ -47,6 +66,8 @@ body{
 .navdesktop h1{
     font-size: 42px;
     color: var(--text-color);
+    font-family: merrilight;
+    font-weight: 700;
 }
 
 .navdesktop a{
@@ -66,6 +87,7 @@ body{
 
 .banner span{
     font-size: 15px;
+    line-height: 20px;
     font-weight: bolder;
     margin-bottom: 50px;
     color: var(--text-color);
@@ -76,6 +98,8 @@ body{
     margin-bottom: 50px;
     color: var(--text-color);
     line-height: 65px;
+    font-family: merrilight;
+    font-weight: 300;
 }
 
 .scrolldown{
@@ -87,12 +111,40 @@ body{
     border: 2px solid var(--text-color);
     border-radius: 50%;
     margin: 50px 0;
+    transition: all 0.5s ease;
     /* padding: 10px; */
 }
+
+.scrolldown:hover a{
+    /* rotate: 360deg; */
+    animation: bounce;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* animation-delay: 1s; */
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    position: relative;
+    overflow: hidden;
+    /* width: 100%; */
+}
+
+@keyframes bounce {
+    0%  { top: 0;}
+    /* 25% {top:15px}
+    50% {top:0}
+    75% {top:-15px} */
+    100%  {top:10px; }
+}
+
 
 .scrolldown a i{
     color: var(--text-color);
     font-size: 25px;
+    height: 50px;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+    /* display: flex; */
 }
 
 
@@ -138,11 +190,14 @@ body{
 .aboutleft h1{
     margin-bottom: 30px;
     font-size: 52px;
+    font-family: merrilight;
+    font-weight: 300;
+    color: var(--light-text-color);
 }
 
 .aboutleft a{
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
 }
 
 .aboutright{
@@ -152,6 +207,7 @@ body{
     padding-left: 20px;
     flex-direction: column;
     line-height: 27px;
+    color: var(--light-text-color);
 }
 
 
@@ -170,6 +226,7 @@ body{
 
 .aboutright h1{
     margin-bottom: 10px;
+    color: var(--text-color);
 }
 
 
@@ -183,18 +240,22 @@ body{
     /* border: 2px solid black; */
     width: 50%;
     line-height: 35px;
+    color: var(--light-text-color);
     /* height: 200px; */
 }
 
 .endleft h1{
     font-size: 37px;
     margin-bottom: 10px;
+    font-family: merrilight;
+    font-weight: 300;
+    color: black;
 }
 
 
 .endleft a{
     text-decoration: none;
-    color: black;
+    color: #A06056;
     /* padding-top: 20px; */
 }
 
@@ -210,17 +271,24 @@ body{
     border: 0;
     height: 50px;
     width: 300px;
-    background: rgba(222, 184, 135, 0.1);
+    background: rgba(243, 238, 232, 0.3);
     padding: 0 15px;
     margin-right: 20px;
 }
 
 .endright button{
-    border: 0;
+    border: 2px solid transparent;
     height: 50px;
     width: 130px;
-    background: black;
+    background: #534B42;
     color: white;
     font-weight: bolder;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.endright button:hover{
+    border: 2px solid #534B42;
+    background: transparent;
+    color: #534B42;
 }
