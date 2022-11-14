@@ -311,6 +311,9 @@ body{
 }
 
 @media screen and (max-width: 1000px) {
+
+
+
     .desktop{
         display: none;
     }
@@ -323,7 +326,7 @@ body{
     .m{
         /* border: 2px solid tomato; */
         background: var(--gradient), url(./images/header.png);
-        /* height: 100vh; */
+        height: 100vh;
         background-position: center;
         background-size: cover;
         padding: 40px 10vw 0 10vw;
@@ -398,6 +401,7 @@ body{
         opacity: 0;
         transform: translateY(-200%);
         transition: all 0.75s ease;
+        /* transition: opacity 1s ease !important; */
         /* padding: 10px; */
     }
 
