@@ -323,12 +323,13 @@ body{
     .m{
         /* border: 2px solid tomato; */
         background: var(--gradient), url(./images/header.png);
-        height: 100vh;
+        /* height: 100vh; */
         background-position: center;
         background-size: cover;
         padding: 40px 10vw 0 10vw;
         /* opacity: 0.95; */
     }
+
 
     .navm{
         display: flex;
@@ -347,25 +348,111 @@ body{
 
     .hamburger{
         display: flex;
-        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        /* flex-direction: column; */
         cursor: pointer;
+        width: 50px;
+        height: 50px;
+        opacity: 0.75;
+        /* background-color: #fff; */
         /* border: 2px solid red; */
     }
 
-    .menu1{
-        width: 26px;
-        background: white;
-        height: 2.5px;
-        margin-bottom: 10px;
+    .menu{
+        width: 100%;
+        height: 4px;
+        background: transparent;
+        position: relative;
         border-radius: 20px;
-        opacity: 0.7;
     }
-    .menu2{
-        width: 26px;
-        background: white;
-        height: 2.5px;
+    
+    .menu::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: rgba(255, 255, 255, 0.85);
+        top: -7px;
         border-radius: 20px;
-        opacity: 0.7;
+        transition: all 0.5s ease;
+    }
+    .menu::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: rgba(255, 255, 255, 0.85);
+        top: 7px;
+        border-radius: 20px;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-link-holder{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100vw;
+        z-index: -1;
+        opacity: 0;
+        transition: all 0.75s ease;
+        /* padding: 10px; */
+    }
+
+    .show-mobile-link-holder{
+        z-index: 100;
+        opacity: 1;
+    }
+    
+    .mobile-link-holder ul{
+        list-style: none;
+        /* position: relative; */
+        display: flex;
+        flex-direction: column;
+        align-items: justify;
+        justify-content: center;
+        /* padding: 0 auto; */
+    }
+    
+
+    .mobile-link-holder ul li{
+        width: 100%;
+        display: flex;
+    }
+    
+    
+    
+    .mobile-link-holder ul a{
+        background: #D9D9D9;
+        color: #706458;
+        text-decoration: none;
+        width: 100%;
+        font-size: 25px;
+        padding: 20px 10vw;
+        transition: all 0.25s ease;
+    }
+    
+    .active{
+        background: transparent !important;
+        color: #D9D9D9 !important;
+        transition: all 0.25s ease;
+    }
+
+    .showburger .menu::after, .showburger .menu::before{
+        background: #fff;
+    }
+
+    .showburger .menu::before{
+        /* transform: translateY(10px); */
+        top: 0px;
+        transform: rotate(45deg);
+    }
+    
+    .showburger .menu::after{
+        top: 0px;
+        /* transform: translateY(-10px); */
+        transform: rotate(-45deg);
     }
 
     .headm{
@@ -379,6 +466,11 @@ body{
         font-size: 18px;
         color: white;
         margin: 20vh 0;
+        transition: all 1s ease;
+    }
+
+    .headmm{
+        margin-top: 40vh;
     }
 
     .headm span{
