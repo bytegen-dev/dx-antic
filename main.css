@@ -437,7 +437,7 @@ body{
     
     .active{
         background: transparent !important;
-        color: #D9D9D9 !important;
+        color: #fff !important;
         transition: all 0.25s ease;
     }
 
