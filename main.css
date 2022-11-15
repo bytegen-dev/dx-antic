@@ -330,7 +330,12 @@ body{
         background-position: center;
         background-size: cover;
         padding: 40px 10vw 0 10vw;
+        transition: all 1s ease;
         /* opacity: 0.95; */
+    }
+
+    .mm{
+        height: 120vh;
     }
 
 
@@ -476,7 +481,7 @@ body{
     }
     
     .headmm{
-        margin-top: 40vh;
+        margin-top: 45vh;
         transition: all 0.7s ease;
     }
 

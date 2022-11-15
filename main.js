@@ -1,11 +1,13 @@
 var ham = document.querySelector('.hamburger');
 var naver = document.querySelector('.headm');
+var nave = document.querySelector('.m');
 var buddy = document.querySelector('body');
 
 function kaisen(){
     // alert('hey')
     buddy.classList.toggle('hey')
     ham.classList.toggle('showburger');
+    nave.classList.toggle('mm');
     naver.classList.toggle('headmm');
     document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
     toliver.classList.add('active');
