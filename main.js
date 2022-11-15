@@ -36,9 +36,9 @@ function holiverr(){
     toliver.classList.remove('active');
     toliverrr.classList.remove('active');
     toliverrrr.classList.remove('active');
-    ham.classList.toggle('showburger');
-    naver.classList.toggle('headmm');
-    document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
+    // ham.classList.toggle('showburger');
+    // naver.classList.toggle('headmm');
+    // document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
 }
 
 function holiverrr(){
@@ -46,9 +46,9 @@ function holiverrr(){
     toliverr.classList.remove('active');
     toliver.classList.remove('active');
     toliverrrr.classList.remove('active');
-    ham.classList.toggle('showburger');
-    naver.classList.toggle('headmm');
-    document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
+    // ham.classList.toggle('showburger');
+    // naver.classList.toggle('headmm');
+    // document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
 }
 
 function holiverrrr(){
@@ -56,7 +56,7 @@ function holiverrrr(){
     toliverr.classList.remove('active');
     toliverrr.classList.remove('active');
     toliver.classList.remove('active');
-    ham.classList.toggle('showburger');
-    naver.classList.toggle('headmm');
-    document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
+    // ham.classList.toggle('showburger');
+    // naver.classList.toggle('headmm');
+    // document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
 }
