@@ -11,11 +11,12 @@ html{
 body{
     font-family: sans-serif;
     -webkit-tap-highlight-color: transparent;
-
+    overflow-x: hidden;
+    /* overflow-y: visible; */
 }
 
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 0px;
     /* cursor: pointer; */
     /* opacity: 0; */
     /* display: flex; */
@@ -326,7 +327,7 @@ body{
     .m{
         /* border: 2px solid tomato; */
         background: var(--gradient), url(./images/header.png);
-        height: 100vh;
+        min-height: 100vh;
         background-position: center;
         background-size: cover;
         padding: 40px 10vw 0 10vw;
@@ -335,7 +336,7 @@ body{
     }
     
     .mm{
-        height: 120vh;
+        /* height: 120vh; */
         transition: all 1.5s ease;
     }
 
@@ -353,6 +354,11 @@ body{
         font-size: 34px;
         font-weight: 700;
         line-height: 25px;
+        cursor: pointer;
+    }
+
+    .navtext a{
+        text-decoration: none;
     }
 
     .hamburger{
@@ -405,16 +411,18 @@ body{
         width: 100vw;
         z-index: -1;
         opacity: 0;
-        transform: translateY(-200%);
+        transform: translateY(-100%);
         transition: all 0.75s ease;
+        /* transition-duration: opacity 0s; */
         /* transition: opacity 1s ease !important; */
         /* padding: 10px; */
     }
-
+    
     .show-mobile-link-holder{
         z-index: 100;
         opacity: 1;
         transform: translateY(0);
+        transition: all 1.5s ease;
     }
     
     .mobile-link-holder ul{
@@ -478,12 +486,12 @@ body{
         font-size: 18px;
         color: white;
         margin: 20vh 0;
-        transition: all 1.7s ease;
+        transition: all 2s ease;
     }
     
     .headmm{
-        margin-top: 45vh;
-        transition: all 0.7s ease;
+        margin-top: 47vh;
+        transition: all 1.5s ease;
     }
 
     .headm span{
@@ -515,6 +523,8 @@ body{
         justify-content: center;
         transition: all 0.5s ease;
     }
+
+
     
     
     .scrolldownm a{
@@ -531,6 +541,10 @@ body{
     @keyframes bounce {
         0%  { top: 0;}
         100%  {top:12px; }
+    }
+
+    .headmm .scrolldownm a{
+        animation: none;
     }
     
     
