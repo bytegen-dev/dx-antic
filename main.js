@@ -26,6 +26,7 @@ function holiver(){
     toliverr.classList.remove('active');
     toliverrr.classList.remove('active');
     toliverrrr.classList.remove('active');
+    nave.classList.toggle('mm');
     ham.classList.toggle('showburger');
     naver.classList.toggle('headmm');
     document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
