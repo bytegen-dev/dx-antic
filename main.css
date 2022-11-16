@@ -77,7 +77,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     height: 70px;
 }
 
@@ -86,12 +86,22 @@ body{
     color: var(--text-color);
     font-family: merrilight;
     font-weight: 700;
+    margin-right: 20px;
 }
 
 .navdesktop a{
     text-decoration: none;
     color: var(--light-text-color);
     font-size: 16px;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+}
+
+.navdesktop a:hover{
+    border: 2px solid var(--text-color);
+    scale: 1.05;
 }
 
 .banner{
@@ -188,6 +198,12 @@ body{
     position: absolute;
     top: 55px;
     right: 30px;
+    transition: all 0.7s ease;
+}
+
+.chat:hover{
+    width: 60px;
+    height: 60px;
 }
 
 .chat img{
