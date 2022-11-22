@@ -400,7 +400,7 @@ body{
 
 .controls-text h1{
     font-size: 45px;
-    font-family: merriweather;
+    font-family: merrilight;
     font-weight: 300;
     color: #534B42;
     /* margin-right: 300px; */
@@ -792,7 +792,7 @@ body{
     }
 
     .inspirem h1{
-        font-family: merriweather !important;
+        font-family: merrilight;
         color: #534B42;
         font-size: 45px;
         font-weight: 300;
