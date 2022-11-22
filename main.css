@@ -761,7 +761,7 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* border: 2ps solid tomato; */
+        border: 2ps solid tomato;
         padding: 20px 10vw;
         background: transparent;
     }
@@ -834,7 +834,7 @@ body{
     .stuff span{
         margin-top: 15px;
         /* margin: 20px 0 20px 0; */
-        border: 2px solid red;
+        /* border: 2px solid red; */
         font-size: 15px;
         font-weight: 400;
         color: #121212;
