@@ -409,6 +409,7 @@ body{
     justify-content: right;
     font-size: 18px;
     max-width: 359px;
+    color: var(--light-text-color);
 }
 
 
@@ -783,4 +784,60 @@ body{
         font-size: 20px;
         font-weight: bolder;
     }
+
+    .inspirem{
+        padding: 20px 10vw;
+    }
+
+    .inspirem h1{
+        font-family: merriweather;
+        color: #534B42;
+        font-size: 45px;
+        font-weight: 300;
+        padding-bottom: 45px;
+    }
+
+    .inspirem p{
+        font-size: 18px;
+        color: var(--light-text-color);
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+
+    .images{
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 20px 10vw;
+    }
+
+    .stuff img{
+        width: 100%;
+        height: 200px;
+        object-position: top;
+        object-fit: cover;
+        /* width: 437.7px; */
+        /* height: 284px; */
+    }
+
+    .stuff{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        /* height: 200px; */
+    }
+
+    .stuff span{
+        margin-top: 15px;
+        /* margin: 20px 0 20px 0; */
+        border: 2px solid red;
+        font-size: 15px;
+        font-weight: 400;
+        color: #121212;
+    }
+
 }
