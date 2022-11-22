@@ -360,9 +360,11 @@ body{
 .itemii{
     margin-right: 40px;
 }
-.itemiii{
-    display: flex;
-    width: 300px;
+.itemiii img{
+    /* display: flex; */
+    /* object-fit: cover; */
+    object-position: bottom;
+    /* width: 300px; */
     /* margin-right: 40px; */
 }
 
@@ -830,6 +832,12 @@ body{
         margin-top: 20px;
         /* height: 200px; */
     }
+
+
+    .cooked img{
+        object-position: center;
+    }
+
 
     .stuff span{
         margin-top: 15px;
