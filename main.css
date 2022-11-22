@@ -606,6 +606,7 @@ body{
     }
 
     .showburger .menu::after, .showburger .menu::before{
+        transition: all 1.5s ease;
         background: #fff;
     }
 
