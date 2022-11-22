@@ -761,7 +761,7 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 2ps solid tomato;
+        /* border: 2ps solid tomato; */
         padding: 20px 10vw;
         background: transparent;
     }
