@@ -792,10 +792,10 @@ body{
     }
 
     .inspirem h1{
-        font-family: merriweather;
+        font-family: merriweather !important;
         color: #534B42;
         font-size: 45px;
-        /* font-weight: 300; */
+        font-weight: 300;
         padding-bottom: 45px;
     }
 
