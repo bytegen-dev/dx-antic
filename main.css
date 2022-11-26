@@ -716,6 +716,8 @@ body{
 .respect h3{
     line-height: 30px;
     margin-bottom: 25px;
+    color: #534B42;
+    font-size: 25px;
 }
 
 .respect img{
@@ -735,6 +737,7 @@ body{
     font-size: 17px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 
@@ -772,7 +775,7 @@ body{
 
 .link a{
     color: #706458;
-    border: 3px solid #706458;
+    border: 3px solid var(--text-color);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -827,6 +830,7 @@ body{
     justify-content: space-between;
     width: 100%;
     margin-left: 350px;
+    line-height: 25px;
 }
 
 .siteusage a{
@@ -1209,6 +1213,7 @@ body{
         align-items: center;
         width: 100vw;
         padding: 20px 10vw;
+        margin-bottom: 50px;
     }
 
     .stuff img{
@@ -1242,5 +1247,73 @@ body{
         font-weight: 400;
         color: #121212;
     }
+
+    .footer{
+        overflow: hidden;
+    }
+
+    .container-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sitemap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center;
+        text-align: center; */
+    }
+
+    .sitename{
+        margin: 0;
+        margin-bottom: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products, .services, .rooms, .aboutt{
+        margin-bottom: 50px;
+    }
+
+    .respect{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer-links-holder{
+        margin-bottom: 50px;
+    }
+
+    .respect  img{
+        width: 100%;
+        max-width: 500px;
+        object-position: center;
+    }
+
+    .final-end{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .author, .siteusage{
+        margin: 0;
+    }
+
+    .siteusage{
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+
+
+
 
 }
