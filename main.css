@@ -857,6 +857,9 @@ body{
 
 @media screen and (max-width: 1000px) {
 
+    body{
+        overflow-x: hidden;
+    }
 
 
     .desktop{
@@ -866,7 +869,9 @@ body{
     .mobile{
         display: flex;
         flex-direction: column;
+        overflow-x: hidden;
     }
+
 
     .m{
         /* border: 2px solid tomato; */
