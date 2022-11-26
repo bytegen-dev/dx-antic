@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antic</title>
     <link rel="icon" href="./images/icons/shopping-bag.png">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="defaults.css">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
@@ -37,9 +38,16 @@
             </div>
             <div class="headright">
                 <div class="chat">
-                    <a href="#">
-                        <img src="./images/icons/chat1.png" alt="chat">
+                    <div class="chatme">
+                        <input class="chatmetxt" type="text" placeholder="leave us a message">
+                    </div>
+                    <a class="ai" href="#">
+                        <img class="imageone" src="./images/icons/chat1.png" alt="chat">
                     </a>
+                    <a class="aii" href="index.html">
+                        <img src="./images/icons/send-message.png" alt="send" class="imagetwo">
+                    </a>
+                
                 </div>
             </div>
         </div>
@@ -86,33 +94,44 @@
                 <button class="submit" id="submit">Subscribe</button>
             </div>
         </div>
-        <div class="swipestuff container">
-            <div class="wrapper">
-                <div class="item itemi">
-                    <img src="./images/slide1.png" alt="slide1">
-                </div>
-                <div class="item itemii">
-                    <img src="./images/slide2.png" alt="slide2">
-                </div>
-                <div class="item itemiii">
-                    <img src="./images/living-room.png" alt="slide3">
-                </div>
+
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide itemi"><img src="./images/slide1.png" alt=""></div>
+                <div class="swiper-slide itemii"><img src="./images/slide2.png" alt=""></div>
+                <div class="swiper-slide itemiii"><img src="./images/slide1.png" alt=""></div>
+                <div class="swiper-slide itemiv"><img src="./images/slide2.png" alt=""></div>
+                
+                
+                <!-- <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div> -->
+              <!-- <div class="swiper-pagination"></div> -->
             </div>
+            
+            <div class="nextandprev">
+                <div class="swiper-button-prev sud"></div>
+                <div class="swiper-button-next sud"></div>
+            </div>
+            
         </div>
+        
+
+
+
+
+
         <div class="controls">
             <span class="controls-text">
                 <h1>Inspirations</h1>
                 <p>Our experts are keen to stay on top of trends in order to offer you new inspirations for your interior and exterior every day. Remember that to inspire you we have to inspire ourselves and we want to share that with you.</p>
             </span>
-            <div class="controllers">
-                <div class="next">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </div>
-                <div class="prev">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </div>
-            </div>
         </div>
+
+        <div class="footer"></div>
     </section>
 
 
@@ -201,6 +220,21 @@
 
         </div>
     </section>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: "auto",
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
     <script src="main.js"></script>
 </body>
 </html>
