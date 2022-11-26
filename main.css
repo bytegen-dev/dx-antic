@@ -807,8 +807,8 @@ body{
 
 .final-end{
     display: flex;
-    padding: 10px 0 30px 0;
-    width: 90vw;
+    padding: 10px 10vw 30px 10vw;
+    width: 100vw;
     justify-content: space-between;
     align-items: center
     ;
