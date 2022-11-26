@@ -844,6 +844,9 @@ body{
 }
 
 
+.facebook{
+    margin: 0;
+}
 
 
 
@@ -910,6 +913,7 @@ body{
         text-decoration: none;
     }
 
+
     .hamburger{
         display: flex;
         align-items: center;
@@ -960,8 +964,8 @@ body{
         width: 100vw;
         z-index: -1;
         opacity: 0;
-        transform: translateY(-100%);
-        transition: all 0.75s ease;
+        transform: translateY(-200%);
+        transition: all 1s ease;
         /* transition-duration: opacity 0s; */
         /* transition: opacity 1s ease !important; */
         /* padding: 10px; */
@@ -1036,7 +1040,7 @@ body{
         font-size: 18px;
         color: white;
         margin: 20vh 0;
-        transition: all 2s ease;
+        transition: all 1.5s ease;
     }
     
     .headmm{
