@@ -766,6 +766,7 @@ body{
     /* width: 40%; */
     /* margin: 0 auto; */
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
     padding: 20px 0;
@@ -831,6 +832,7 @@ body{
     width: 100%;
     margin-left: 350px;
     line-height: 25px;
+    flex-wrap: wrap;
 }
 
 .siteusage a{
