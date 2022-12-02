@@ -1343,27 +1343,33 @@ body{
     /* filter: blur(0); */
 }
 
+.footer-links-holder .hidden{
+    filter: blur(4px);
+}
+
 .footer-links-holder .hiddeni{
-    transition-delay: 0.5s !important;
-    transition: all 1s ease;
+    transition-delay: 0.25s !important;
+    transition: all 0s ease;
     transform: translateX(-100%);
 }
 .footer-links-holder .hiddenii{
-    transition-delay: 0.7s !important;
-    transition: all 1s ease;
+    transition-delay: 0.5s !important;
+    transition: all 0s ease;
     transform: translateX(-100%);
 }
 .footer-links-holder .hiddeniii{
-    transition-delay: 0.9s !important;
-    transition: all 1s ease;
+    transition-delay: 0.7s !important;
+    transition: all 0s ease;
     transform: translateX(-100%);
 }
 .footer-links-holder .hiddeniv{
-    transition-delay: 1.1s !important;
-    transition: all 1s ease;
+    transition-delay: 0.9s !important;
+    transition: all 0s ease;
     transform: translateX(-100%);
 }
 
 .footer-links-holder .show{
     transform: translateX(0);
+    filter: blur(0);
+    transition: all 1s ease;
 }
