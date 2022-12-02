@@ -1343,6 +1343,17 @@ body{
     /* filter: blur(0); */
 }
 
+.images .hiddenimgi{
+    opacity: 1 !important;
+    filter: blur(5px);
+    scale: 0.7;
+}
+
+.images .show{
+    filter: blur(0);
+    scale: 1;
+}
+
 .footer-links-holder .hidden{
     filter: blur(4px);
 }
