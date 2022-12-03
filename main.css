@@ -851,6 +851,36 @@ body{
 }
 
 
+.gototop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.gototop{
+    background-color: #484139;
+    width: 30px;
+    color: #fff;
+    height: 30px;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid #fff;
+    opacity: 0.3;
+    transform: translateX(100px);
+    transition: all 2.5s ease;
+}
+
+.gototop:hover{
+    opacity: 0.6;
+    /* transition: all 2s ease; */
+}
+
+.hideme{
+    transform: translateX(0px);
+}
 
 
 
@@ -1387,35 +1417,4 @@ body{
     transform: translateX(0);
     filter: blur(0);
     transition: all 1s ease;
-}
-
-.gototop{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.gototop{
-    background-color: #484139;
-    width: 30px;
-    color: #fff;
-    height: 30px;
-    border-radius: 50%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border: 2px solid #fff;
-    opacity: 0.3;
-    transform: translateX(100px);
-    transition: all 2.5s ease;
-}
-
-.gototop:hover{
-    opacity: 0.6;
-    /* transition: all 2s ease; */
-}
-
-.hideme{
-    transform: translateX(0px);
 }
