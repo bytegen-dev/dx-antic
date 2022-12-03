@@ -1320,6 +1320,10 @@ body{
         margin-bottom: 40px;
     }
 
+    .gototop{
+        display: flex;
+    }
+
 
 
 
@@ -1397,7 +1401,7 @@ body{
     color: #fff;
     height: 30px;
     border-radius: 50%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     text-decoration: none;
