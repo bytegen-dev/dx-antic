@@ -1403,8 +1403,8 @@ body{
     text-decoration: none;
     border: 2px solid #fff;
     opacity: 0.3;
-    /* transform: translateX(100px); */
-    transition: all 3s ease;
+    transform: translateX(100px);
+    transition: all 2.5s ease;
 }
 
 .gototop:hover{
@@ -1413,5 +1413,5 @@ body{
 }
 
 .hideme{
-    transform: translateX(100px);
+    transform: translateX(0px);
 }

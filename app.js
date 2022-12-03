@@ -18,10 +18,10 @@ const observerii = new IntersectionObserver((entries) => {
         console.log(entry)
         if (entry.isIntersecting) {
             entry.target.classList.add('hidegototop');
-            document.querySelector('.gototop').classList.add('hideme')
+            document.querySelector('.gototop').classList.remove('hideme')
         } else {
             entry.target.classList.remove('hidegototop')
-            document.querySelector('.gototop').classList.remove('hideme')
+            document.querySelector('.gototop').classList.add('hideme')
         }
     });
 });
