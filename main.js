@@ -9,12 +9,18 @@ function kaisen(){
     ham.classList.toggle('showburger');
     nave.classList.toggle('mm');
     naver.classList.toggle('headmm');
+    // document.querySelector('.pop').duration = 2000;
     document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
     toliver.classList.add('active');
     toliverr.classList.remove('active');
     toliverrr.classList.remove('active');
     toliverrrr.classList.remove('active');
 }
+
+// function swoosh(){
+//     document.querySelector('.pop').volume = 0.1;
+//     document.querySelector('.pop').play();
+// }
 
 var toliver = document.querySelector('.oliver');
 var toliverr = document.querySelector('.oliverr');
