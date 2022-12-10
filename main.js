@@ -70,8 +70,9 @@ function holiverrrr(){
 function submit(){
     document.querySelector('.submit').classList.toggle('submitted');
     document.querySelector('.newsletter').classList.add('shownews');
+    document.getElementById('email').value = " ";
+    // document.getElementById('email').disabled = true;
     // document.getElementById('submit').disabled = true;
-    document.getElementById('email').value = "";
     // alert('hey')
 }
 
