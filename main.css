@@ -1478,7 +1478,7 @@ body{
 
 .shownews{
     display: flex;
-    transition: all 1s ease;
+    /* transition: all 1s ease; */
 }
 
 .infonews{
