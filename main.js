@@ -65,5 +65,17 @@ function holiverrrr(){
     toliver.classList.remove('active');
     // ham.classList.toggle('showburger');
     // naver.classList.toggle('headmm');
-    // document.querySelector('.mobile-link-holder').classList.toggle('show-mobile-link-holder');
+}
+
+function submit(){
+    document.querySelector('.submit').classList.toggle('submitted');
+    document.querySelector('.newsletter').classList.add('shownews');
+    // document.getElementById('submit').disabled = true;
+    // document.getElementById('email').disabled = true;
+    // alert('hey')
+}
+
+function closenews(){
+    // alert('hey')
+    document.querySelector('.newsletter').classList.remove('shownews');
 }
