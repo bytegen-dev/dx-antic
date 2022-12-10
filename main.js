@@ -71,7 +71,7 @@ function submit(){
     document.querySelector('.submit').classList.toggle('submitted');
     document.querySelector('.newsletter').classList.add('shownews');
     // document.getElementById('submit').disabled = true;
-    // document.getElementById('email').disabled = true;
+    // document.getElementById('email').reset();
     // alert('hey')
 }
 
