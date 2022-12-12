@@ -1516,16 +1516,19 @@ body{
 }
 
 .infonews.hidden .check{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    background-image: linear-gradient(-45deg,rgb(59, 198, 248), rgb(43, 213, 43));
-    border: 2px solid rgba(0, 0, 0, 0.645);
-    color: #fff;
-    font-size: 40px;
+    /* background-image: linear-gradient(-45deg,rgb(59, 198, 248), rgb(43, 213, 43)); */
+    /* border: 2px solid rgba(0, 0, 0, 0.645); */
+    /* color: #fff; */
+    /* font-size: 40px; */
+    background-image: url(/gif/email-verified.gif);
+    background-size: cover;
+    background-position: center;
     opacity: 0;
     filter: blur(5px);
     position: relative;
