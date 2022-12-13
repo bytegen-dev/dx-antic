@@ -993,6 +993,7 @@ body{
         width: 100vw;
         z-index: -1;
         opacity: 0;
+        filter: blur(5px);
         transform: translateY(-200%);
         transition: all 1s ease;
         /* transition-duration: opacity 0s; */
@@ -1002,6 +1003,7 @@ body{
     
     .show-mobile-link-holder{
         z-index: 100;
+        filter: blur(0);
         opacity: 1;
         transform: translateY(0);
         transition: all 1.5s ease;
