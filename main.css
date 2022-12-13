@@ -1378,14 +1378,17 @@ body{
 }
 
 .images .hiddenimgi{
-    opacity: 1 !important;
+    opacity: 0;
     filter: blur(5px);
-    scale: 0.7;
+    transform: translateY(50px);
+    /* scale: 0.7; */
 }
 
 .images .show{
+    opacity: 1;
     filter: blur(0);
     scale: 1;
+    transform: translateY(0);
 }
 
 .footer-links-holder .hidden{
