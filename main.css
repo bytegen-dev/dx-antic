@@ -1074,13 +1074,13 @@ body{
         text-align: center;
         font-size: 18px;
         color: white;
-        margin: 20vh 0;
-        transition: all 1.5s ease;
+        margin-top: 20vh;
+        transition: all 2s ease !important;
     }
     
     .headmm{
         margin-top: 47vh;
-        transition: all 1.5s ease;
+        /* transition: all 1.5s ease; */
     }
 
     .headm span{
