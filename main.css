@@ -992,9 +992,12 @@ body{
         left: 0;
         width: 100vw;
         z-index: -1;
+        height: 0px;
         opacity: 0;
+        /* border: 2px solid red; */
+        overflow: hidden;
         filter: blur(5px);
-        transform: translateY(-200%);
+        transform: translateY(-50px);
         transition: all 1s ease;
         /* transition-duration: opacity 0s; */
         /* transition: opacity 1s ease !important; */
@@ -1002,6 +1005,7 @@ body{
     }
     
     .show-mobile-link-holder{
+        height: 300px;
         z-index: 100;
         filter: blur(0);
         opacity: 1;
