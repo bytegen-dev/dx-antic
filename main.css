@@ -910,15 +910,17 @@ body{
         background: var(--gradient), url(./images/header.png);
         min-height: 100vh;
         background-position: center;
-        background-size: cover;
+        background-size: 200%;
+        background-repeat: no-repeat;
         padding: 40px 10vw 0 10vw;
         transition: all 2s ease;
         /* opacity: 0.95; */
     }
     
     .mm{
+        background-size: 300%;
         /* height: 120vh; */
-        transition: all 1.5s ease;
+        /* transition: all 1.5s ease; */
     }
 
 
