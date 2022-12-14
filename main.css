@@ -1013,17 +1013,17 @@ body{
         opacity: 1;
         /* transform: translateY(0); */
         transition: all 1.5s ease;
-        animation: blurlink;
+        /* animation: blurlink;
         animation-timing-function: ease;
         animation-duration: 2s;
-        animation-fill-mode: forwards;
+        animation-fill-mode: forwards; */
         /* anima */
     }
-
+/* 
     @keyframes blurlink {
         0%{filter: blur(5px);}
         100%{filter: blur(0);}
-    }
+    } */
     
     .mobile-link-holder ul{
         list-style: none;
