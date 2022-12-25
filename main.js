@@ -2,6 +2,8 @@ var ham = document.querySelector('.hamburger');
 var naver = document.querySelector('.headm');
 var nave = document.querySelector('.m');
 var buddy = document.querySelector('body');
+var window = document.documentElement
+var preloader = document.getElementById("preloader")
 
 function kaisen(){
     // alert('hey')
@@ -77,3 +79,10 @@ function closenews(){
     // alert('hey')
     document.querySelector('.newsletter').classList.remove('shownews');
 }
+
+function hidePreloader() {
+    preloader.style.display = "none"
+}
+
+window.addEventListener("load", hidePreloader)
+
