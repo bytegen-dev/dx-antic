@@ -1565,6 +1565,35 @@ body{
     filter: blur(0);
 }
 
+.preloader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #48413993;
+    backdrop-filter: blur(7px);
+    z-index: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader-circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #F3EEE8;
+    border-bottom: 4px solid #f3eee83c;
+    position: relative;
+    animation: turnpreloader 2s linear infinite forwards;
+}
+
+@keyframes turnpreloader {
+    0%{transform: rotate(-700deg);}
+    100%{}
+}
+
 
 /* .shownews .closenews{
     opacity: 1;
