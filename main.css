@@ -1571,7 +1571,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    background: #48413993;
+    background: #0000005a;
     backdrop-filter: blur(7px);
     z-index: 300;
     display: flex;
