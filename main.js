@@ -80,9 +80,16 @@ function closenews(){
     document.querySelector('.newsletter').classList.remove('shownews');
 }
 
+// let bull = preloader.style.display = "none"
+
 function hidePreloader() {
     preloader.style.display = "none"
+    
 }
 
-window.addEventListener("load", hidePreloader)
+window.addEventListener("load", () => {
+    setTimeout(
+        hidePreloader , 1500
+    )
+})
 
