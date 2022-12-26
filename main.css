@@ -1386,7 +1386,7 @@ body{
     opacity: 0;
     /* filter: blur(5px); */
     transition: all 0.7s ease;
-    transform: translateY(30px);
+    transform: translateY(70px);
 }
 
 .show{

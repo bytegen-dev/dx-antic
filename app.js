@@ -7,7 +7,14 @@ const observer = new IntersectionObserver((entries) => {
             // entry.target.classList.remove('show')
         }
     });
-});
+},
+{
+    threshold: 0.5,
+    // rootMargin: "-100px"
+}
+
+
+);
 
 
 const hiddenElements = document.querySelectorAll('.hidden');
