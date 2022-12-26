@@ -84,6 +84,7 @@ function closenews(){
 
 function hidePreloader() {
     preloader.style.display = "none"
+    naver.style.display = "flex"
     
 }
 
