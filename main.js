@@ -2,6 +2,7 @@ var ham = document.querySelector('.hamburger');
 var naver = document.querySelector('.headm');
 var nave = document.querySelector('.m');
 var buddy = document.querySelector('body');
+var banner = document.querySelector('.banner');
 var window = document.documentElement
 var preloader = document.getElementById("preloader")
 
@@ -85,6 +86,7 @@ function closenews(){
 function hidePreloader() {
     preloader.style.display = "none"
     naver.style.display = "flex"
+    banner.style.display = "flex"
     
 }
 
