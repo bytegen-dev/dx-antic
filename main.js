@@ -87,6 +87,7 @@ function hidePreloader() {
     preloader.style.display = "none"
     naver.style.display = "flex"
     banner.style.display = "flex"
+    buddy.style.overflowY = "visible"
     
 }
 
